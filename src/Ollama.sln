@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ollama.Sdk", "Ollama.Sdk\Ollama.Sdk.fsproj", "{6928416F-DEE6-42D6-82CA-C431F2830672}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Ollama.Console", "Ollama.Console\Ollama.Console.fsproj", "{3E31F8CA-84AD-4ADD-8D2F-29D66CA61AE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6928416F-DEE6-42D6-82CA-C431F2830672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6928416F-DEE6-42D6-82CA-C431F2830672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6928416F-DEE6-42D6-82CA-C431F2830672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6928416F-DEE6-42D6-82CA-C431F2830672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E31F8CA-84AD-4ADD-8D2F-29D66CA61AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E31F8CA-84AD-4ADD-8D2F-29D66CA61AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E31F8CA-84AD-4ADD-8D2F-29D66CA61AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E31F8CA-84AD-4ADD-8D2F-29D66CA61AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
