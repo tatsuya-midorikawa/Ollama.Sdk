@@ -2,7 +2,6 @@ module Ollama.Sdk.Server
 
 open System.Runtime.InteropServices
 
-// export OLLAMA_HOST=127.0.0.1:11455
 let inline run () =
   let port = Network.findFreePort()
   let ep = $"127.0.0.1:{port}"
@@ -34,4 +33,4 @@ let inline run () =
   else
     printfn "Running on Unix"
     raise (System.NotImplementedException())
-  ep
+  Endpoint ep
